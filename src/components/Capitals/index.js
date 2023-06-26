@@ -37,7 +37,7 @@ class Capitals extends Component {
   }
 
   onChangeCapital = event => {
-    this.setSate({activeCapitalId: event.target.value})
+    this.setState({activeCapitalId: event.target.value})
   }
 
   getCountry = () => {
