@@ -68,7 +68,6 @@ class Capitals extends Component {
                   value={eachItem.id}
                   className="option"
                 >
-                  {' '}
                   {eachItem.capitalDisplayText}
                 </option>
               ))}
